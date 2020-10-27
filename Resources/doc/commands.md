@@ -58,7 +58,7 @@ You can use the comment `doctrine:decrypt:database [encryptor]` to decrypt the c
     * Default: Your encryptor set in the configuration file or the default encryption class when not set in the configuration file
 
 ```
-$ php app/console doctrine:encrypt:database
+$ php app/console doctrine:decrypt:database
 ```
 
 or you can provide an encryptor (optional).
